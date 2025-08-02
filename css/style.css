@@ -115,3 +115,29 @@ footer {
 .form-section {
   padding: 1rem;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: auto;
+}
+
+input, textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 0.75rem;
+  font-weight: bold;
+  background-color: #111;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
